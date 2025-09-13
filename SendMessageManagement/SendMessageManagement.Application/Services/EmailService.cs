@@ -1,12 +1,13 @@
 ﻿using SendMessageManagement.Application.Interfaces;
-using SendMessageManagement.Domain.Enums;
+using SendMessageManagement.Domain.DTOs;
+using SendMessageManagement.Domain.Entities;
 
 namespace SendMessageManagement.Application.Services;
 
 public class EmailService : ICreateMessageType
 {
-    public string CreateMessage(MessageTypeEnum messageType)
+    public Message CreateMessage()
     {
-        throw new NotImplementedException();
+        return new EmailMessage { Content = "Hello", CreatedAt = DateTime.Now, Address = "m.taghavi.ce@gmail.com" };
     }
 }

@@ -1,8 +1,8 @@
-﻿using SendMessageManagement.Domain.Enums;
+﻿using SendMessageManagement.Domain.Entities;
 
 namespace SendMessageManagement.Application.Interfaces;
 
 public interface ICreateMessageType
 {
-    string CreateMessage(MessageTypeEnum messageType);
+    Message CreateMessage();
 }
