@@ -452,9 +452,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement.csproj",
-      "projectName": "SendMessageManagement",
-      "projectPath": "F:\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement.csproj",
+      "projectUniqueName": "F:\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement.Api.csproj",
+      "projectName": "SendMessageManagement.Api",
+      "projectPath": "F:\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement.Api.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "F:\\SendMessageManagement\\SendMessageManagement\\SendMessageManagement\\obj\\",
       "projectStyle": "PackageReference",
